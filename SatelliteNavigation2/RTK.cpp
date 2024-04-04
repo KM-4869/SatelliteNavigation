@@ -26,9 +26,9 @@ void SingleDifference(OBSERVATION_DATA* Rover_ObsData, OBSERVATION_DATA* Base_Ob
 				Sd_ObsData->SdSatObs.back().psr[k] = RoverSatObs.psr[k] - BaseSatObs->psr[k];
 				Sd_ObsData->SdSatObs.back().adr[k] = RoverSatObs.adr[k] - BaseSatObs->adr[k];
 				Sd_ObsData->SdSatObs.back().CNo[k] = (RoverSatObs.CNo[k] + BaseSatObs->CNo[k]) / 2.0;//用流动站卫星观测值CNo和基站卫星观测值的CNo的平均（事实上二者也相差不大）
-				Sd_ObsData->SdSatObs.back().locktime[k] = (RoverSatObs.locktime[k] + BaseSatObs->locktime[k]) / 2.0;//同理，计算平均锁定时长，二者均为判断参考星依据
-				Sd_ObsData->Sat_Number++;
+				Sd_ObsData->SdSatObs.back().locktime[k] = (RoverSatObs.locktime[k] + BaseSatObs->locktime[k]) / 2.0;//同理，计算平均锁定时长，二者均为判断参考星依据	
 			}
+			Sd_ObsData->Sat_Number++;
 		}
 	}
 
