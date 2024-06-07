@@ -6,7 +6,6 @@
 int lambda(int n, int m, const double* a, const double* Q, double* F, double* s);
 int main()
 {
-
     OBSERVATION_DATA Rover_ObsData;//流动站观测数据结构体
     OBSERVATION_DATA Base_ObsData;//基站观测数据结构体
     
