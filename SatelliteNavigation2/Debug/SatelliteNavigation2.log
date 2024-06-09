@@ -1,4 +1,4 @@
-﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
   SatelliteNavigation2.cpp
-D:\卫星导航算法与程序设计\SatelliteNavigation2\SatelliteNavigation2\SatelliteNavigation2.cpp(125,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-  SatelliteNavigation2.vcxproj -> D:\卫星导航算法与程序设计\SatelliteNavigation2\Debug\SatelliteNavigation2.exe
+C:\Users\Megumi\source\repos\KM-4869\SatelliteNavigation\SatelliteNavigation2\SatelliteNavigation2.cpp(124,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  SatelliteNavigation2.vcxproj -> C:\Users\Megumi\Source\Repos\KM-4869\SatelliteNavigation\Debug\SatelliteNavigation2.exe

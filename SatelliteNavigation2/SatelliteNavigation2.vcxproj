@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -143,10 +143,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\卫星导航算法与程序设计\卫星导航算法与程序设计\Matrix.cpp" />
     <ClCompile Include="CoordinateTransformation.cpp" />
     <ClCompile Include="Decode.cpp" />
     <ClCompile Include="lambda.cpp" />
+    <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="Matrix2.cpp" />
     <ClCompile Include="MyVector.cpp" />
     <ClCompile Include="OptimalEstimation.cpp" />
@@ -159,11 +159,11 @@
     <ClCompile Include="TimeTransformation.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\卫星导航算法与程序设计\卫星导航算法与程序设计\Matrix.h" />
     <ClInclude Include="Constant.h" />
     <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Decode.h" />
     <ClInclude Include="lambda.h" />
+    <ClInclude Include="Matrix.h" />
     <ClInclude Include="Matrix2.h" />
     <ClInclude Include="MyTime.h" />
     <ClInclude Include="MyVector.h" />

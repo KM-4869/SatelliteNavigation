@@ -42,9 +42,6 @@
     <ClCompile Include="TimeTransformation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\卫星导航算法与程序设计\卫星导航算法与程序设计\Matrix.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="OptimalEstimation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -55,6 +52,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="lambda.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -89,9 +89,6 @@
     <ClInclude Include="sockets.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\卫星导航算法与程序设计\卫星导航算法与程序设计\Matrix.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="OptimalEstimation.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -99,6 +96,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="lambda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
